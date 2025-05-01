@@ -7,7 +7,7 @@ This repository contains a simple trial website created as part of my practice i
 ##  Built With
 - HTML
 - CSS
-- 
+
 ##  Purpose
 This project was created to practice:
 - Basic web page creation
