@@ -1,0 +1,101 @@
+
+body {
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding:3%;
+    background-color: #7209b7;
+    color:#e5e5e5;
+}
+h1{
+    font-size: 3em;
+    color:#e5e5e5;
+    padding: 0.5rem;
+    text-align: center;
+    width: 90%;
+    border: solid 5px #e5e5e5;
+    border-radius: 10px; 
+    outline:3px solid #caf0f8 ;
+    margin: 0.5rem auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tools{
+    border: 3px solid #e5e5e5;
+    width: 90%;
+    border-radius: 10px;
+    background-color:#560bad ;
+    margin: 2rem auto;
+}
+
+/*Typography*/
+
+input, button{
+    font :inherit
+}
+    a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a:visited{
+        color:  whitesmoke;
+    }
+    a:hover, a:focus{
+        background-color:  #533369;
+         opacity:0.8;
+    }
+    a:active{
+         color: #caf7f8;
+    }
+    h2{
+        font-size: 2em;
+      color: #f72585;
+    }
+    .quote{
+        font-size: 1.5em;
+        color: #f72585;
+        font-style: italic;
+        background-color: rgb(249, 216, 175);
+        border:3px;
+        border-radius: 10px 10px 0 0 ;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+.technique {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 2em;
+    font-weight: 400%;
+    font-size: 1.2em;
+    color: #fdfdfd;
+    line-height: 1.6;
+}
+table, tr, th, td, caption {
+    border: 1px solid #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse; 
+    padding :0.5rem;
+}
+.links{
+   color: whitesmoke;
+   list-style-type: none;
+   padding-left: 0;
+   text-align:right;
+   margin :0;
+}
+li a{
+display:inline-block;
+margin-inline: 1rem
+}
+li a:visited {
+ text-decoration: none;
+ color: lightgoldenrodyellow;
+ 
+}
+li a:hover, 
+li a:focus{
+background: #42076a;
+color:#f72585;
+text-decoration:underline;
+cursor: pointer;
+} 
